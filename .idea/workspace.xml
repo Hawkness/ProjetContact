@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="557cbaf9-c876-4038-8e0c-26885b7ba288" name="Default Changelist" comment="" />
+    <list default="true" id="557cbaf9-c876-4038-8e0c-26885b7ba288" name="Default Changelist" comment="Premier commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/AccessingDataJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/AddressForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/ContactForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CESI/accessingdatajpa/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,20 +32,65 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1WNjk5zMTa58fLli7EZ9RjFEUJw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AccessingDataJpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CESI.accessingdatajpa.AccessingDataJpaApplication" />
+      <module name="ProjetContact.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.CESI.accessingdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccessingDataJpaApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,6 +115,57 @@
       <option name="presentableId" value="Default" />
       <updated>1578997086562</updated>
     </task>
+    <task id="LOCAL-00001" summary="Premier commit">
+      <created>1578997199555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578997199555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Premier commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premier commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578999914549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578999914549" />
+    <state x="6" y="119" key="CommitChangelistDialog2" timestamp="1579013919078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="6" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579013919078" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578997391944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578997391944" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579013607921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579013607921" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579013607921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579013607921" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579013607921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579013607921" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579013607921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579013607921" />
+    <state x="60" y="265" key="IDE.errors.dialog" timestamp="1578999221494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="60" y="265" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578999221494" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1578997215004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578997215004" />
   </component>
 </project>
