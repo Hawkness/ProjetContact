@@ -1,16 +1,49 @@
-plugins {
-    id 'java'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.3.RELEASE")
+    }
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
 
-sourceCompatibility = 1.8
+jar {
+    baseName = 'SpringExamples'
+    version = '0.1.0'
+}
 
 repositories {
     mavenCentral()
 }
 
+group = 'com.CESI'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security:spring-security-test'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf:2.1.3.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:2.1.3.RELEASE")
+    compile("org.springframework.boot:spring-boot-devtools:2.1.3.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:2.1.3.RELEASE")
+    compile("com.h2database:h2:1.4.197")
+    testCompile("junit:junit:4.12")
+}
+
+test {
+    useJUnitPlatform()
 }

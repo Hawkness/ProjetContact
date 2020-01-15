@@ -6,8 +6,8 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface ContactRepository extends CrudRepository<Contact, Integer> {
 
+    Contact findById(int id);
     List<Contact> findByFirstName(String firstName);
     List<Contact> findByLastName(String lastName);
 
-    Contact findById(int id);
 }

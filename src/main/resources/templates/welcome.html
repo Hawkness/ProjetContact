@@ -1,12 +1,17 @@
 <!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head>
     <title>Accueil</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 <p>Bienvenue!</p>
-<p>Pour consulter la liste des contacts, veuillez cliquer ici</p>
+<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+<p>Pour consulter la liste des contacts, veuillez cliquer <a href="http://127.0.0.1:8080/form">ICI</a></p>
 <p>Pour modifier un contact spécifique, veuillez cliquer ici</p>
 <p>Pour supprimer un contact spécifique, veuillez cliquer ici</p>
 </body>

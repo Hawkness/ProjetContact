@@ -3,15 +3,32 @@
 <form action="#" th:action="@{/}" th:object="${ContactForm}" method="post">
     <table>
         <tr>
+            <td>Prenom:</td>
+            <td><input type="text" th:field="*{firstName}" /></td>
+            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">First Name Error</td>
+        </tr>
+        <tr>
             <td>Nom:</td>
-            <td><input type="text" th:field="*{name}" /></td>
-            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">Name Error</td>
+            <td><input type="text" th:field="*{lastName}" /></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Last Name Error</td>
+        </tr>
+        <tr>
+            <td>Addresse:</td>
+            <td><input type="text" th:field="*{address}" /></td>
+            <td th:if="${#fields.hasErrors('address')}" th:errors="*{address}">First Name Error</td>
+        </tr>
+        <tr>
+            <td>Code Postal:</td>
+            <td><input type="text" th:field="*{postalCode}" /></td>
+            <td th:if="${#fields.hasErrors('postalCode')}" th:errors="*{postalCode}">First Name Error</td>
         </tr>
         <tr>
             <td>Prenom:</td>
-            <td><input type="text" th:field="*{age}" /></td>
-            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Age Error</td>
+            <td><input type="text" th:field="*{city}" /></td>
+            <td th:if="${#fields.hasErrors('city')}" th:errors="*{city}">First Name Error</td>
         </tr>
+
+
         <tr>
             <td><button type="submit">Submit</button></td>
         </tr>
